@@ -1,0 +1,23 @@
+{
+    "name": "mrnajafi/basic_mvc",
+    "description": "this is a simple and basic mvc architecture",
+    "type": "project",
+    "authors": [
+        {
+            "name": "mrnajafi81",
+            "email": "mohammad81.najafi@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "App/"
+        },
+        "files": [
+            "App/Helpers/constances.php",
+            "App/Helpers/functions.php"
+        ]
+    }
+}
